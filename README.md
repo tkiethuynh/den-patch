@@ -8,6 +8,10 @@ Morphe patches for Imou Life, maintained by Kiet Huynh.
 
 The current patch removes native Imou Protect promotional banners and renewal dialogs from Imou Life 8.3.0.
 
+## Compatibility note
+
+The Morphe CLI patch is applied successfully, but Imou Life 8.3.0 exits after startup when any re-signed APK reaches the login flow. A no-op Morphe patch reproduced the same behavior, while the vendor-signed APK remained stable. This is an Imou signature/integrity compatibility issue, not a resource-patch failure; the repository does not bypass that check.
+
 ### How to use these patches
 
 Click here to add these patches to Morphe: https://morphe.software/add-source?github=tkiethuynh/den-patch
