@@ -9,7 +9,7 @@ object Constants {
         name = "Imou Life",
         packageName = "com.mm.android.smartlifeiot",
         apkFileType = ApkFileType.APK,
-        appIconColor = 0xFFF28C00,
+        appIconColor = 0xF28C00,
         targets = listOf(
             AppTarget(version = "8.3.0")
         )
