@@ -1,9 +1,10 @@
 plugins {
     kotlin("jvm") version "2.2.21"
+    `maven-publish`
 }
 
 group = "app.tkiethuynh.denpatch"
-version = "1.0.0"
+version = providers.gradleProperty("version").getOrElse("1.0.0")
 
 repositories {
     mavenLocal()
@@ -114,7 +115,7 @@ tasks.register<JavaExec>("generatePatchesList") {
     mainClass.set("util.PatchListGeneratorKt")
 }
 
-tasks.register("publish") {
+tasks.named("publish") {
     dependsOn("generatePatchesList")
 }
 
