@@ -27,6 +27,9 @@ jobs:
 
       - name: Build Patches
         run: ./gradlew buildAndroid --no-daemon
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.actor }}
 
       - name: Get Version
         id: get_version

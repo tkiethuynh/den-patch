@@ -10,6 +10,14 @@ repositories {
     mavenCentral()
     google()
     maven { url = uri("https://jitpack.io") }
+    maven {
+        name = "GitHubPackages"
+        url = uri("https://maven.pkg.github.com/MorpheApp/registry")
+        credentials {
+            username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR") ?: "token"
+            password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN")
+        }
+    }
 }
 
 dependencies {
