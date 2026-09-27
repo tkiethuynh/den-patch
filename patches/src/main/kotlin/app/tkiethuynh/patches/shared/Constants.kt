@@ -14,4 +14,14 @@ object Constants {
             AppTarget(version = "8.3.0")
         )
     )
+
+    val COMPATIBILITY_MISA = Compatibility(
+        name = "MISA Money Keeper",
+        packageName = "vn.com.misa.sothuchi",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0x00A859,
+        targets = listOf(
+            AppTarget(version = "93.4")
+        )
+    )
 }

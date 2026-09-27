@@ -40,3 +40,7 @@ tasks.jar {
 kotlin {
     compilerOptions.freeCompilerArgs.add("-Xcontext-parameters")
 }
+
+tasks.register("buildAndroid") {
+    dependsOn(tasks.jar)
+}
