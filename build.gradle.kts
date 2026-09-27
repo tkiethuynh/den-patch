@@ -44,3 +44,19 @@ kotlin {
 tasks.register("buildAndroid") {
     dependsOn(tasks.jar)
 }
+
+val copyMpp = tasks.register<Copy>("copyMpp") {
+    from(tasks.jar)
+    into(layout.buildDirectory.dir("libs"))
+    rename { filename ->
+        filename.removeSuffix(".jar") + ".mpp"
+    }
+}
+
+tasks.named("buildAndroid") {
+    dependsOn(copyMpp)
+}
+
+tasks.register("publish") {
+    dependsOn("buildAndroid")
+}
