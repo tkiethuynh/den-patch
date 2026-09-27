@@ -11,7 +11,8 @@ object Constants {
         apkFileType = ApkFileType.APK,
         appIconColor = 0xF28C00,
         targets = listOf(
-            AppTarget(version = "8.3.0")
+            AppTarget(version = "8.3.0"),
+            AppTarget(version = "10.5.0")
         )
     )
 

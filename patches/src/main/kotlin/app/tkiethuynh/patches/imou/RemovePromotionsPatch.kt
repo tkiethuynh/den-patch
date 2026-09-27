@@ -8,7 +8,10 @@ private val layoutFiles = listOf(
     "res/layout/fragment_me_tab_new.xml",
     "res/layout-v22/fragment_me_tab_new.xml",
     "res/layout/server_imou_protect_dialog_layout.xml",
-    "res/layout/pop_vas_info_layout.xml"
+    "res/layout/pop_vas_info_layout.xml",
+    "res/layout/dialog_ims_protect_update.xml",
+    "res/layout/message_no_sdcard_and_imsprotect_tip_callback.xml",
+    "res/layout/professional_no_sdcard_and_imsprotect_tip_layout.xml"
 )
 
 @Suppress("unused")
@@ -27,6 +30,8 @@ val removePromotionsPatch = resourcePatch(
                 val root = document.documentElement
                 if (path.endsWith("fragment_me_tab_new.xml")) {
                     root.findById("imou_protect_cl")?.setAttribute("android:visibility", "gone")
+                    root.findById("ims_protect_cl")?.setAttribute("android:visibility", "gone")
+                    root.findById("ims_protect_rn")?.setAttribute("android:visibility", "gone")
                 } else {
                     root.setAttribute("android:visibility", "gone")
                 }

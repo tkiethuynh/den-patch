@@ -1,6 +1,7 @@
 # 🧩 Den Patches
 
 Custom Morphe patches for Android applications, maintained by Kiet Huynh.
+Built using the official [Morphe Patches Template](https://github.com/morpheapp/morphe-patches-template).
 
 ---
 
