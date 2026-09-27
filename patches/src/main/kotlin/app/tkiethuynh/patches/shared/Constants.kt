@@ -24,4 +24,15 @@ object Constants {
             AppTarget(version = "93.4")
         )
     )
+
+    val COMPATIBILITY_PROXMAN = Compatibility(
+        name = "Proxman",
+        packageName = "com.windium.proxman",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0x007AFF,
+        targets = listOf(
+            AppTarget(version = "1.5.1"),
+            AppTarget(version = "1.6.0")
+        )
+    )
 }

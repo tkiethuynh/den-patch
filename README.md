@@ -4,6 +4,58 @@ Custom Morphe patches for Android applications, maintained by Kiet Huynh.
 
 ---
 
+## 🩹 Patches list
+
+<!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/tkiethuynh/den-patch/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+<details open>
+<summary>📦 Imou Life&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 8.3.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Remove Imou promotions](#remove-imou-promotions) | Removes native Imou Protect promotional banners and renewal dialogs. |  |
+
+</details>
+
+<details open>
+<summary>📦 MISA Money Keeper&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 93.4 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Remove split requirements](#remove-split-requirements) | Removes split requirements from AndroidManifest to allow standalone APK installation. |  |
+| [Unlock premium](#unlock-premium) | Unlocks premium subscription features and removes advertisements. |  |
+
+</details>
+
+<details open>
+<summary>📦 Proxman&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.5.1 | 1.6.0 |
+| :---: | :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Premium](#unlock-premium) | Unlocks all premium features in Proxman by injecting a synthetic Pro entitlement at the RevenueCat RN bridge and neutering the Pairip license check that would otherwise kill the process. |  |
+
+</details>
+
+<!-- PATCHES_END -->
+
 ## 📱 Supported Applications
 
 ### 1. Sổ Thu Chi MISA (`vn.com.misa.sothuchi`)
@@ -16,6 +68,12 @@ Custom Morphe patches for Android applications, maintained by Kiet Huynh.
 - **Compatibility**: Version `8.3.0`
 - **Patches**:
   - `Remove Imou promotions`: Suppresses native Imou Protect promotional banners and subscription renewal dialogs.
+
+### 3. Proxman (`com.windium.proxman`)
+- **Compatibility**: Version `1.5.1`
+- **Patches**:
+  - `Unlock Premium`: Injects a synthetic Pro entitlement at the RevenueCat RN bridge and neuters the Pairip license check.
+
 
 ---
 
