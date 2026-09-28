@@ -7,22 +7,7 @@ Custom Morphe patches for Android applications, maintained by Kiet Huynh.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0](https://github.com/tkiethuynh/den-patch/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
-<details open>
-<summary>📦 Imou Life&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 8.3.0 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Remove Imou promotions](#remove-imou-promotions) | Removes native Imou Protect promotional banners and renewal dialogs. |  |
-
-</details>
-
+> **[v1.1.0](https://github.com/tkiethuynh/den-patch/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 MISA Money Keeper&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
@@ -64,12 +49,7 @@ Custom Morphe patches for Android applications, maintained by Kiet Huynh.
   - `Unlock premium`: Unlocks all premium reporting and expense tracking features, suppresses advertisements.
   - `Remove split requirements`: Strips `requiredSplitTypes` and split metadata from `AndroidManifest.xml` to allow installing as a standalone APK without split install failures (`INSTALL_FAILED_MISSING_SPLIT`).
 
-### 2. Imou Life (`com.mm.android.smartlifeiot`)
-- **Compatibility**: Version `8.3.0`
-- **Patches**:
-  - `Remove Imou promotions`: Suppresses native Imou Protect promotional banners and subscription renewal dialogs.
-
-### 3. Proxman (`com.windium.proxman`)
+### 2. Proxman (`com.windium.proxman`)
 - **Compatibility**: Version `1.5.1`
 - **Patches**:
   - `Unlock Premium`: Injects a synthetic Pro entitlement at the RevenueCat RN bridge and neuters the Pairip license check.
