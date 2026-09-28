@@ -7,22 +7,7 @@ Custom Morphe patches for Android applications, maintained by Kiet Huynh.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.1](https://github.com/tkiethuynh/den-patch/releases/tag/v1.1.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
-<details open>
-<summary>📦 Imou Life&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 8.3.0 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Remove Imou promotions](#remove-imou-promotions) | Removes native Imou Protect promotional banners and renewal dialogs. |  |
-
-</details>
-
+> **[v1.1.1](https://github.com/tkiethuynh/den-patch/releases/tag/v1.1.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 MISA Money Keeper&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>

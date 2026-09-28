@@ -3,33 +3,6 @@
   "version": "1.1.1",
   "patches": [
     {
-      "name": "Remove Imou promotions",
-      "description": "Removes native Imou Protect promotional banners and renewal dialogs.",
-      "default": true,
-      "category": null,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mm.android.smartlifeiot",
-          "name": "Imou Life",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#F28C00",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.3.0",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Remove split requirements",
       "description": "Removes split requirements from AndroidManifest to allow standalone APK installation.",
       "default": true,
