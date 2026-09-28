@@ -7,7 +7,7 @@ Custom Morphe patches for Android applications, maintained by Kiet Huynh.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.1](https://github.com/tkiethuynh/den-patch/releases/tag/v1.1.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.1.2](https://github.com/tkiethuynh/den-patch/releases/tag/v1.1.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 MISA Money Keeper&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>

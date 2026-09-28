@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/tkiethuynh/den-patch/compare/v1.1.1...v1.1.2) (2026-09-28)
+
+### 🐛 Bug Fixes
+
+* remove Imou patch sources from release bundle ([054cd51](https://github.com/tkiethuynh/den-patch/commit/054cd51952762f3b879c0a218aa47b33cc2ad8dc))
+
 ## [1.1.1](https://github.com/tkiethuynh/den-patch/compare/v1.1.0...v1.1.1) (2026-09-28)
 
 ### 🐛 Bug Fixes
