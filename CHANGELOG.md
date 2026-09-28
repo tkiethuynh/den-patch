@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/tkiethuynh/den-patch/compare/v1.1.0...v1.1.1) (2026-09-28)
+
+### 🐛 Bug Fixes
+
+* unregister Imou patch pending runtime integrity bypass ([1d10be6](https://github.com/tkiethuynh/den-patch/commit/1d10be6772aec95abb27ddcdc8e2fd304e93c294))
+
 ## [1.1.0](https://github.com/tkiethuynh/den-patch/compare/v1.0.0...v1.1.0) (2026-09-27)
 
 ### 🐛 Bug Fixes
