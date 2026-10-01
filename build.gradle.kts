@@ -27,10 +27,10 @@ val patchListGeneratorClasspath by configurations.creating
 dependencies {
     compileOnly("app.morphe:morphe-patcher:1.5.1")
     compileOnly("com.github.MorpheApp.smali:smali:b6365a84f4")
-    compileOnly("com.google.code.gson:gson:2.11.0")
+    compileOnly("com.google.code.gson:gson:2.14.0")
     patchListGeneratorClasspath("app.morphe:morphe-patcher:1.5.1")
     patchListGeneratorClasspath("com.github.MorpheApp.smali:smali:b6365a84f4")
-    patchListGeneratorClasspath("com.google.code.gson:gson:2.11.0")
+    patchListGeneratorClasspath("com.google.code.gson:gson:2.14.0")
     d8("com.android.tools:r8:8.3.37")
 }
 
